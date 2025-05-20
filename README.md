@@ -6,7 +6,7 @@ Este repositório contém uma análise completa do dataset público da Olist, um
 
 - `Desafio_Triggo.ipynb`: Notebook Jupyter com todo o código e análises
 - `README.md`: Este arquivo, com instruções e resultados principais
-- `data/`: Pasta contendo os arquivos CSV do dataset da Olist
+- `dados/`: Pasta contendo os arquivos CSV do dataset da Olist
 
 ## Como Executar
 
@@ -20,7 +20,7 @@ Instale as dependências necessárias:
 
 pip install pandas numpy matplotlib seaborn scikit-learn duckdb plotly
 
-Baixe os dados da Olist do Kaggle e coloque os arquivos CSV na pasta data/.
+Baixe os dados da Olist do Kaggle e coloque os arquivos CSV na pasta dados/.
 Execute o notebook Desafio_Triggo.ipynb usando Jupyter Notebook ou Google Colab.
 
 ## Análise Realizada

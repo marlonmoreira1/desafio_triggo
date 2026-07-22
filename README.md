@@ -39,8 +39,8 @@ O projeto foi dividido em 4 etapas principais:
 - **Duplicatas**: Apenas o `geolocation` tinha duplicatas exatas; foram removidas, pois não agregavam valor.
 
 - **Valores nulos**:
-  - `order_reviews`: colunas de comentários e títulos têm muitos nulos — clientes frequentemente não deixam texto.
-  - `orders`: colunas de datas têm nulos — possivelmente pedidos cancelados ou não entregues.
+  - `order_reviews`: colunas de comentários e títulos têm muitos nulos, clientes frequentemente não deixam texto.
+  - `orders`: colunas de datas têm nulos, possivelmente pedidos cancelados ou não entregues.
   - `products`: campos importantes faltando para alguns produtos, mas esses produtos tinham pedidos associados, então foram mantidos e classificados como “outros”.
 
 #### 1.3 Normalização
@@ -119,7 +119,7 @@ Apesar do aumento de falsos positivos, o segundo modelo permite uma atuação pr
 - **Grupo 1 – Compra Única:** mais satisfeitos, gastam mais e recebem rápido.
 - **Grupo 2 – Parceladores:** alta recorrência e segundo maior gasto.
 - **Grupo 3 – Fiéis:** poucos clientes, mas muito recorrentes e engajados.
-- **Grupo 4 – Premium:** maior gasto médio e fidelização — foco em retenção.
+- **Grupo 4 – Premium:** maior gasto médio e fidelização, foco em retenção.
 - **Grupo 5 – Emergentes:** bom potencial de fidelização.
 
 **Estratégias sugeridas:**

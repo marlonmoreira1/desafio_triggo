@@ -2,6 +2,13 @@
 
 Este repositório contém uma análise completa do dataset público da Olist, um marketplace brasileiro. O projeto foi desenvolvido como parte de um processo seletivo para vaga de trainee na Triggo.
 
+## Artigo Completo
+
+Além do notebook, escrevi um artigo no Medium detalhando o raciocínio utilizado durante a análise, os principais insights encontrados e as recomendações de negócio propostas ao longo do projeto.
+
+**Medium:**  
+https://medium.com/@marlonm.almeida/o-que-mais-de-100-mil-pedidos-podem-ensinar-sobre-um-marketplace-4ae05a161cd2
+
 ## Estrutura do Projeto
 
 - `Desafio_Triggo.ipynb`: Notebook Jupyter com todo o código e análises
@@ -154,3 +161,81 @@ Avaliando a nota dos clientes em relação a diversas variáveis, identifiquei q
 - **Retenção:** Taxa muito baixa (3%) indica oportunidade de melhoria.
 - **Segmentação:** Identificação de grupos com características distintas que permitem ações de marketing direcionadas.
 - **Parcelamento:** Forte relação com recorrência e volume de gastos.
+
+## Recomendações de Negócio
+
+Com base nos resultados obtidos, foram propostas algumas iniciativas que poderiam ser avaliadas pelo marketplace.
+
+### 1. Monitoramento Preventivo de Pedidos com Risco de Atraso
+
+**Hipótese**
+
+A identificação antecipada de pedidos com maior probabilidade de atraso permite reduzir problemas operacionais e minimizar impactos na experiência do cliente.
+
+**Ação**
+
+Integrar o modelo preditivo ao processo logístico para gerar alertas automáticos sobre pedidos com alto risco de atraso, permitindo ações preventivas antes do vencimento do prazo de entrega.
+
+**Critério de sucesso**
+
+- Redução da taxa de pedidos entregues com atraso;
+- Aumento do percentual de entregas dentro do prazo;
+- Redução das avaliações negativas relacionadas à entrega;
+- Aumento da nota média das avaliações.
+
+---
+
+### 2. Priorizar as Categorias de Maior Faturamento
+
+**Hipótese**
+
+Como poucas categorias concentram grande parte da receita, melhorias operacionais e comerciais nesses segmentos tendem a gerar maior impacto financeiro.
+
+**Ação**
+
+Priorizar investimentos em gestão de estoque, campanhas promocionais e otimização logística para as categorias responsáveis pela maior parcela do faturamento.
+
+**Critério de sucesso**
+
+- Aumento do faturamento das categorias priorizadas;
+- Crescimento da participação dessas categorias na receita total;
+- Redução do tempo médio de entrega dessas categorias;
+- Aumento da taxa de conversão das campanhas.
+
+---
+
+### 3. Personalizar Estratégias para Cada Perfil de Cliente
+
+**Hipótese**
+
+Clientes com comportamentos distintos respondem melhor a ações direcionadas do que a campanhas genéricas.
+
+**Ação**
+
+Utilizar os segmentos identificados para personalizar campanhas de CRM, programas de fidelidade e ações de recuperação para clientes insatisfeitos.
+
+**Critério de sucesso**
+
+- Aumento da taxa de recompra por segmento;
+- Aumento da frequência média de compra;
+- Crescimento do ticket médio dos segmentos priorizados;
+- Redução da proporção de clientes classificados como insatisfeitos.
+
+---
+
+### 4. Redução do Tempo Médio de Entrega
+
+**Hipótese**
+
+Como o tempo de entrega apresentou a maior relação com a satisfação dos clientes, melhorias logísticas tendem a gerar ganhos diretos na experiência do consumidor.
+
+**Ação**
+
+Mapear regiões, vendedores e rotas com maior tempo médio de entrega para priorizar melhorias operacionais e revisão dos parceiros logísticos.
+
+**Critério de sucesso**
+
+- Redução do tempo médio de entrega;
+- Redução da variabilidade do prazo de entrega;
+- Aumento da nota média das avaliações;
+- Redução das reclamações relacionadas à logística.

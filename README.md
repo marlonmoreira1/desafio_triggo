@@ -7,7 +7,7 @@ Este repositório contém uma análise completa do dataset público da Olist, um
 Além do notebook, escrevi um artigo no Medium detalhando o raciocínio utilizado durante a análise, os principais insights encontrados e as recomendações de negócio propostas ao longo do projeto.
 
 **Medium:**  
-https://medium.com/@marlonm.almeida/o-que-mais-de-100-mil-pedidos-podem-ensinar-sobre-um-marketplace-4ae05a161cd2
+**[Artigo](https://medium.com/@marlonm.almeida/o-que-mais-de-100-mil-pedidos-podem-ensinar-sobre-um-marketplace-4ae05a161cd2)**
 
 ## Estrutura do Projeto
 

@@ -78,6 +78,10 @@ O projeto foi dividido em 4 etapas principais:
 - 75% das entregas concluídas em até duas semanas.
 - 96% das entregas concluídas em até um mês.
 - Presença de casos extremos com entregas superiores a 3 meses.
+  
+  <img width="1589" height="590" alt="insight 1" src="https://github.com/user-attachments/assets/66517974-a5ab-4e4c-9742-6ce80b95f9d5" />
+
+---
 
 #### c) Relação entre valor do frete e distância de entrega
 
@@ -90,12 +94,10 @@ O projeto foi dividido em 4 etapas principais:
 - Alta concentração de receita em poucas categorias, sugerindo oportunidades e riscos.
 - Alinhado à regra 80/20 — foco estratégico e risco concentrado.
 
-#### e) Estados com maior valor médio de pedido
-
-- Maiores tickets médios concentrados nas regiões Norte e Nordeste.
-- Hipóteses: menor frequência de pedidos, menos concorrência local, perfil regional de consumo.
+  <img width="1987" height="989" alt="pareto" src="https://github.com/user-attachments/assets/b761ee90-c8f2-4bbf-9f65-d99e6da56414" />
 
 ---
+
 
 ### 3. Solução de Problemas de Negócio
 
@@ -111,6 +113,8 @@ Desenvolvi dois modelos para prever se um pedido será entregue com atraso. Ambo
 - **Modelo 1:** cobre apenas parte dos atrasos, deixando de sinalizar cerca de 5 pedidos atrasados por dia.
 - **Modelo 2:** identifica 87% dos pedidos atrasados (~12 de 13 por dia), mas com menor precisão (abaixo de 45%), resultando em 27 alertas diários.
 
+  <img width="691" height="468" alt="atraso_ml" src="https://github.com/user-attachments/assets/9e8da513-4041-4741-aca7-79b95cee86c1" />
+
 Apesar do aumento de falsos positivos, o segundo modelo permite uma atuação proativa que pode reduzir em até 80% os atrasos não identificados, melhorando a experiência do cliente.
 
 **Fatores relacionados ao atraso:**
@@ -119,6 +123,8 @@ Apesar do aumento de falsos positivos, o segundo modelo permite uma atuação pr
 - Localização do cliente e vendedor: SP tem mais atrasos; RS menos.
 - Categoria do produto: itens como ferramentas e relógios atrasam menos.
 - Frete: fretes mais caros tendem a ter menos atrasos.
+
+---
 
 #### 3.3 Segmentação de Clientes
 
@@ -129,12 +135,15 @@ Apesar do aumento de falsos positivos, o segundo modelo permite uma atuação pr
 - **Grupo 4 – Premium:** maior gasto médio e fidelização, foco em retenção.
 - **Grupo 5 – Emergentes:** bom potencial de fidelização.
 
+  <img width="853" height="545" alt="cluster" src="https://github.com/user-attachments/assets/0c19fa4b-59d5-4764-bb88-481555802320" />
+
 **Estratégias sugeridas:**
 
 - Incentivar parcelamento, que está associado à recorrência.
 - Melhorar a logística, principalmente para o Grupo 0 de Insatisfeitos.
 - Investir em retenção nos grupos 2, 4, 3 e 5, que apresentam bom retorno e retenção acima da média geral.
 
+---
 #### 3.4 Análise de Satisfação
 
 Avaliando a nota dos clientes em relação a diversas variáveis, identifiquei que:
@@ -142,6 +151,9 @@ Avaliando a nota dos clientes em relação a diversas variáveis, identifiquei q
 - Tempo de entrega é o fator com maior impacto negativo na satisfação (correlação -0.33).
 - Preço do produto, valor pago e frete têm pouca influência na nota.
 - Conclusão: clientes penalizam mais pelos atrasos do que pelo preço.
+
+  <img width="654" height="562" alt="satisfação" src="https://github.com/user-attachments/assets/d8f6eab2-d27e-4843-8f25-e751a2033c6b" />
+
 
 ---
 

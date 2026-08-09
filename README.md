@@ -9,12 +9,6 @@ Além do notebook, escrevi um artigo no Medium detalhando o raciocínio utilizad
 **Medium:**  
 **[Artigo](https://medium.com/@marlonm.almeida/o-que-mais-de-100-mil-pedidos-podem-ensinar-sobre-um-marketplace-4ae05a161cd2)**
 
-## Estrutura do Projeto
-
-- `Desafio_Triggo.ipynb`: Notebook Jupyter com todo o código e análises
-- `README.md`: Este arquivo, com instruções e resultados principais
-- `dados/`: Pasta contendo os arquivos CSV do dataset da Olist
-
 ## Como Executar
 
 Clone este repositório:

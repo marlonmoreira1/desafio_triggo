@@ -180,7 +180,7 @@ A identificação antecipada de pedidos com maior probabilidade de atraso permit
 
 **Ação**
 
-Integrar o modelo preditivo ao processo logístico para gerar alertas automáticos sobre pedidos com alto risco de atraso, permitindo ações preventivas antes do vencimento do prazo de entrega.
+Integrar o modelo preditivo ao processo logístico para gerar alertas automáticos sobre pedidos com alto risco de atraso, permitindo ações preventivas pontuais como acompanhamento da transportadora, revisão da rota ou comunicação antecipada com o cliente.
 
 **Critério de sucesso**
 
@@ -195,18 +195,18 @@ Integrar o modelo preditivo ao processo logístico para gerar alertas automátic
 
 **Hipótese**
 
-Como poucas categorias concentram grande parte da receita, melhorias operacionais e comerciais nesses segmentos tendem a gerar maior impacto financeiro.
+A concentração de receita não é uniforme entre as 10 categorias prioritárias — as 5 principais (7% das categorias) já respondem por 40% do faturamento, enquanto as outras 5 completam os 63%. Tratar essas duas camadas com o mesmo nível de investimento desperdiça recurso.
 
 **Ação**
 
-Priorizar investimentos em gestão de estoque, campanhas promocionais e otimização logística para as categorias responsáveis pela maior parcela do faturamento.
+Criar dois níveis de prioridade: Camada 1 (as 5 categorias responsáveis por 40% do faturamento) recebe estoque de segurança mais alto, campanhas promocionais dedicadas e SLA de entrega mais rígido; Camada 2 (as outras 5, completando os 63%) recebe acompanhamento mensal de desempenho para decidir se sobe de camada.
 
 **Critério de sucesso**
 
-- Aumento do faturamento das categorias priorizadas;
-- Crescimento da participação dessas categorias na receita total;
-- Redução do tempo médio de entrega dessas categorias;
-- Aumento da taxa de conversão das campanhas.
+- Aumento da participação da Camada 1 na receita total, sem perda de margem;
+- Redução do tempo médio de entrega especificamente na Camada 1;
+- Aumento da taxa de conversão nas campanhas dessa camada;
+- Categorias da Camada 2 com crescimento suficiente para "subir" de camada em X meses.
 
 ---
 
@@ -218,30 +218,20 @@ Clientes com comportamentos distintos respondem melhor a ações direcionadas do
 
 **Ação**
 
-Utilizar os segmentos identificados para personalizar campanhas de CRM, programas de fidelidade e ações de recuperação para clientes insatisfeitos.
+Direcionar uma ação específica por grupo:
+
+- Grupo 0 (Insatisfeitos) — priorizar correção logística (maior tempo de entrega do grupo) e oferecer recuperação ativa (cupom + contato direto) antes de tentar qualquer campanha de venda;
+- Grupo 1 (Compra Única) — como a retenção geral é de apenas 3% e esse é o grupo mais numeroso, criar gatilho de segunda compra (e-mail + cupom pós-entrega, já que são satisfeitos mas não voltam sozinhos);
+- Grupo 2 (Parceladores) — reforçar parcelamento facilitado/cashback, já que é o comportamento associado à maior recorrência;
+- Grupo 3 (Fiéis) — grupo pequeno mas muito engajado: programa de reconhecimento de baixo custo (prioridade de atendimento, acesso antecipado);
+- Grupo 4 (Premium) — maior gasto médio: programa de fidelidade com benefício tangível (frete grátis, atendimento dedicado);
+- Grupo 5 (Emergentes) — nutrição via e-mail/remarketing para evoluir o grupo em direção a Fiéis ou Premium.
 
 **Critério de sucesso**
 
-- Aumento da taxa de recompra por segmento;
-- Aumento da frequência média de compra;
-- Crescimento do ticket médio dos segmentos priorizados;
+- Aumento da taxa de recompra do Grupo 1 (o maior alavancador, dado que a retenção geral é de 3%);
+- Crescimento do Grupo 3+4 (Fiéis/Premium) como % da base;
 - Redução da proporção de clientes classificados como insatisfeitos.
 
----
 
-### 4. Redução do Tempo Médio de Entrega
 
-**Hipótese**
-
-Como o tempo de entrega apresentou a maior relação com a satisfação dos clientes, melhorias logísticas tendem a gerar ganhos diretos na experiência do consumidor.
-
-**Ação**
-
-Mapear regiões, vendedores e rotas com maior tempo médio de entrega para priorizar melhorias operacionais e revisão dos parceiros logísticos.
-
-**Critério de sucesso**
-
-- Redução do tempo médio de entrega;
-- Redução da variabilidade do prazo de entrega;
-- Aumento da nota média das avaliações;
-- Redução das reclamações relacionadas à logística.
